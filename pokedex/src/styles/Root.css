@@ -1,0 +1,29 @@
+#header {
+    align-items: center;
+    display: flex;
+}
+
+.buttonLink {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttonLink:hover {
+    background-color: #0056b3;
+}
+
+#logo {
+    height: 96px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+  

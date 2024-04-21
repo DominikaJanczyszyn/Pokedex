@@ -1,0 +1,73 @@
+.main-board {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-box1 {
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    margin: 15px;
+    width: 700px;
+    height: auto;
+    padding: 30px 0;
+    text-decoration: none;
+}
+
+.pokemon-name1 {
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.pokemon-name1 img {
+    width: 300px;
+    aspect-ratio: auto 300/300;
+    height: 300px;
+}
+
+.pokemon-type {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pokemon-box1 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 32px;
+}
+
+.pokemon-stats {
+    text-align: left;
+    margin-inline-start: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button::before {
+    content: "\2190";
+    margin-right: 5px;
+}
